@@ -1,4 +1,4 @@
 {
-  "folder": "programming-blog",
-  "format": "YYYY/MM/YYYY-MM-DD"
+  "folder": "src/pages/posts",
+  "format": "YYYY-MM-DD"
 }
