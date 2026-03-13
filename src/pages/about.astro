@@ -1,25 +1,18 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
+import "../styles/global.css";
+const pageTitle = "About Me";
 ---
-<!-- Below is your "component template." It's just HTML, but with
-    some magic sprinkled in to help you build great templates. -->
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
   <body>
   <a href="/">Home</a>
   <a href="/about">About</a>
   <a href="/blog">Blog</a>  
-    <h1>about</h1>
+    <h1>{pageTitle}</h1>
     <p>this blog is for me to talk about programming</b>
   </body>
 </html>
-<style>
-  html {
-    background-color: #222;
-    color: #fff;
-  }
-  h1 {
-    color: #22dd44;
-  }
-</style>
