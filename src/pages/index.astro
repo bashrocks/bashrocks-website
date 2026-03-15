@@ -1,16 +1,15 @@
 ---
 import "../styles/global.css";
 import Navigation from "../components/navigation.astro";
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
+import Footer from "../components/footer.astro";
+// console.log('This displays a print in the terminal when the page loads.');
+// console.log(Navigation); will inspect the properties of an imported element
 ---
-<!-- Below is your "component template." It's just HTML, but with
-    some magic sprinkled in to help you build great templates. -->
 <html>
   <body>
     <Navigation />
     <h1>bashrocks</h1>
     <p>bash rocks! but i also want to bash it with rocks.</b>
+    <Footer />
   </body>
 </html>

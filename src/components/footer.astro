@@ -1,0 +1,13 @@
+---
+import Social from "./social.astro";
+import { Image } from "astro:assets"; 
+import Neocities from "../badges/neocities.png";
+---
+
+<footer>
+  <hr />
+  <Social platform="github" username="bashrocks" />
+  <Social platform="linkedin" username="astrodotbuild" />
+  <Image src={Neocities} alt="Hosted on Neocities." />
+</footer>
+
