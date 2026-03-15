@@ -2,12 +2,17 @@
 import Social from "./social.astro";
 import { Image } from "astro:assets"; 
 import Neocities from "../badges/neocities.png";
+import Houston from "../badges/friends-of-houston.png";
+import BuiltWithAstro from "../badges/builtwithastro88x31.png";
 ---
 
 <footer>
   <hr />
   <Social platform="github" username="bashrocks" />
   <Social platform="linkedin" username="astrodotbuild" />
+  <p />
   <Image src={Neocities} alt="Hosted on Neocities." />
+  <Image src={BuiltWithAstro} alt="Built with Astro." />
+  <Image src={Houston} alt="Friends of Houston." />
 </footer>
 
